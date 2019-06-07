@@ -18,5 +18,6 @@ dependencies {
 
     compile 'org.jdesktop:beansbinding:1.2.1'
 
+    compile 'org.netbeans.external:AbsoluteLayout:+'
 
 }
