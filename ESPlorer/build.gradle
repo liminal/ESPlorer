@@ -8,11 +8,15 @@ targetCompatibility = JavaVersion.VERSION_1_7
 
 repositories {
     mavenCentral()
-    jcenter()
+    maven { url 'http://nexus.talanlabs.com/content/repositories/releases/' }
 }
 
 dependencies {
     compile 'org.scream3r:jssc:2.8.0'
     compile 'com.fifesoft:rsyntaxtextarea:2.5.8'
-    
+    compile 'org.fife:RAutocomplete:2.5.1'
+
+    compile 'org.jdesktop:beansbinding:1.2.1'
+
+
 }
